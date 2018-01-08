@@ -1,0 +1,753 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54BE53ED200342C300CC0668 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BE53EC200342C300CC0668 /* AppDelegate.m */; };
+		54BE53F0200342C300CC0668 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BE53EF200342C300CC0668 /* ViewController.m */; };
+		54BE53F3200342C300CC0668 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54BE53F1200342C300CC0668 /* Main.storyboard */; };
+		54BE53F5200342C300CC0668 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54BE53F4200342C300CC0668 /* Assets.xcassets */; };
+		54BE53F8200342C300CC0668 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54BE53F6200342C300CC0668 /* LaunchScreen.storyboard */; };
+		54BE53FB200342C300CC0668 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BE53FA200342C300CC0668 /* main.m */; };
+		54BE5405200342C300CC0668 /* RACSignalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BE5404200342C300CC0668 /* RACSignalTests.m */; };
+		54BE5410200342C300CC0668 /* RACSignalUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BE540F200342C300CC0668 /* RACSignalUITests.m */; };
+		7806AAD5C5CA439B4C81F5CD /* libPods-RACSignal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A736C74E1E7F45453894A24A /* libPods-RACSignal.a */; };
+		9AE35C7264E0A42E30EBE920 /* libPods-RACSignalUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BBC3C52CBA32E5CF61C7AE5 /* libPods-RACSignalUITests.a */; };
+		A73A01648A8D7B007365A2B1 /* libPods-RACSignalTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 25BCF5B29C5D461BC7B932B1 /* libPods-RACSignalTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54BE5401200342C300CC0668 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54BE53E0200342C300CC0668 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54BE53E7200342C300CC0668;
+			remoteInfo = RACSignal;
+		};
+		54BE540C200342C300CC0668 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54BE53E0200342C300CC0668 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54BE53E7200342C300CC0668;
+			remoteInfo = RACSignal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D3F8A938FB69D1806714E63 /* Pods-RACSignal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RACSignal.release.xcconfig"; path = "Pods/Target Support Files/Pods-RACSignal/Pods-RACSignal.release.xcconfig"; sourceTree = "<group>"; };
+		1508AC32F974B94169512555 /* Pods-RACSignalTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RACSignalTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RACSignalTests/Pods-RACSignalTests.debug.xcconfig"; sourceTree = "<group>"; };
+		25BCF5B29C5D461BC7B932B1 /* libPods-RACSignalTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RACSignalTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BBC3C52CBA32E5CF61C7AE5 /* libPods-RACSignalUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RACSignalUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		505A8F87856019E2C13C5216 /* Pods-RACSignalTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RACSignalTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RACSignalTests/Pods-RACSignalTests.release.xcconfig"; sourceTree = "<group>"; };
+		54BE53E8200342C300CC0668 /* RACSignal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RACSignal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54BE53EB200342C300CC0668 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		54BE53EC200342C300CC0668 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		54BE53EE200342C300CC0668 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		54BE53EF200342C300CC0668 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		54BE53F2200342C300CC0668 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		54BE53F4200342C300CC0668 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54BE53F7200342C300CC0668 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		54BE53F9200342C300CC0668 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54BE53FA200342C300CC0668 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		54BE5400200342C300CC0668 /* RACSignalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RACSignalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54BE5404200342C300CC0668 /* RACSignalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACSignalTests.m; sourceTree = "<group>"; };
+		54BE5406200342C300CC0668 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54BE540B200342C300CC0668 /* RACSignalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RACSignalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54BE540F200342C300CC0668 /* RACSignalUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACSignalUITests.m; sourceTree = "<group>"; };
+		54BE5411200342C300CC0668 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		694FD3CCBA41E4509FD30252 /* Pods-RACSignal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RACSignal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RACSignal/Pods-RACSignal.debug.xcconfig"; sourceTree = "<group>"; };
+		A736C74E1E7F45453894A24A /* libPods-RACSignal.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RACSignal.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF82AF0F580103B62B028DCF /* Pods-RACSignalUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RACSignalUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RACSignalUITests/Pods-RACSignalUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F14737ADF2D383EA276386E3 /* Pods-RACSignalUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RACSignalUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RACSignalUITests/Pods-RACSignalUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54BE53E5200342C300CC0668 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7806AAD5C5CA439B4C81F5CD /* libPods-RACSignal.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54BE53FD200342C300CC0668 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A73A01648A8D7B007365A2B1 /* libPods-RACSignalTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54BE5408200342C300CC0668 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AE35C7264E0A42E30EBE920 /* libPods-RACSignalUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54BE53DF200342C300CC0668 = {
+			isa = PBXGroup;
+			children = (
+				54BE53EA200342C300CC0668 /* RACSignal */,
+				54BE5403200342C300CC0668 /* RACSignalTests */,
+				54BE540E200342C300CC0668 /* RACSignalUITests */,
+				54BE53E9200342C300CC0668 /* Products */,
+				79BF1F4AF5018F0767C47E9E /* Pods */,
+				A0C74B2C0409507068254028 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		54BE53E9200342C300CC0668 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54BE53E8200342C300CC0668 /* RACSignal.app */,
+				54BE5400200342C300CC0668 /* RACSignalTests.xctest */,
+				54BE540B200342C300CC0668 /* RACSignalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54BE53EA200342C300CC0668 /* RACSignal */ = {
+			isa = PBXGroup;
+			children = (
+				54BE53EB200342C300CC0668 /* AppDelegate.h */,
+				54BE53EC200342C300CC0668 /* AppDelegate.m */,
+				54BE53EE200342C300CC0668 /* ViewController.h */,
+				54BE53EF200342C300CC0668 /* ViewController.m */,
+				54BE53F1200342C300CC0668 /* Main.storyboard */,
+				54BE53F4200342C300CC0668 /* Assets.xcassets */,
+				54BE53F6200342C300CC0668 /* LaunchScreen.storyboard */,
+				54BE53F9200342C300CC0668 /* Info.plist */,
+				54BE53FA200342C300CC0668 /* main.m */,
+			);
+			path = RACSignal;
+			sourceTree = "<group>";
+		};
+		54BE5403200342C300CC0668 /* RACSignalTests */ = {
+			isa = PBXGroup;
+			children = (
+				54BE5404200342C300CC0668 /* RACSignalTests.m */,
+				54BE5406200342C300CC0668 /* Info.plist */,
+			);
+			path = RACSignalTests;
+			sourceTree = "<group>";
+		};
+		54BE540E200342C300CC0668 /* RACSignalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				54BE540F200342C300CC0668 /* RACSignalUITests.m */,
+				54BE5411200342C300CC0668 /* Info.plist */,
+			);
+			path = RACSignalUITests;
+			sourceTree = "<group>";
+		};
+		79BF1F4AF5018F0767C47E9E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				694FD3CCBA41E4509FD30252 /* Pods-RACSignal.debug.xcconfig */,
+				0D3F8A938FB69D1806714E63 /* Pods-RACSignal.release.xcconfig */,
+				1508AC32F974B94169512555 /* Pods-RACSignalTests.debug.xcconfig */,
+				505A8F87856019E2C13C5216 /* Pods-RACSignalTests.release.xcconfig */,
+				DF82AF0F580103B62B028DCF /* Pods-RACSignalUITests.debug.xcconfig */,
+				F14737ADF2D383EA276386E3 /* Pods-RACSignalUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A0C74B2C0409507068254028 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A736C74E1E7F45453894A24A /* libPods-RACSignal.a */,
+				25BCF5B29C5D461BC7B932B1 /* libPods-RACSignalTests.a */,
+				3BBC3C52CBA32E5CF61C7AE5 /* libPods-RACSignalUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54BE53E7200342C300CC0668 /* RACSignal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54BE5414200342C300CC0668 /* Build configuration list for PBXNativeTarget "RACSignal" */;
+			buildPhases = (
+				686079B1554CD626EB1F1DBC /* [CP] Check Pods Manifest.lock */,
+				54BE53E4200342C300CC0668 /* Sources */,
+				54BE53E5200342C300CC0668 /* Frameworks */,
+				54BE53E6200342C300CC0668 /* Resources */,
+				95FE5079BB3A2726AC99C314 /* [CP] Embed Pods Frameworks */,
+				BAD737E415F82D34E12A35CB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RACSignal;
+			productName = RACSignal;
+			productReference = 54BE53E8200342C300CC0668 /* RACSignal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		54BE53FF200342C300CC0668 /* RACSignalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54BE5417200342C300CC0668 /* Build configuration list for PBXNativeTarget "RACSignalTests" */;
+			buildPhases = (
+				E2875BA71394E475D88E6350 /* [CP] Check Pods Manifest.lock */,
+				54BE53FC200342C300CC0668 /* Sources */,
+				54BE53FD200342C300CC0668 /* Frameworks */,
+				54BE53FE200342C300CC0668 /* Resources */,
+				B138053DD522EEB87C45B12B /* [CP] Embed Pods Frameworks */,
+				4C35270463BAB50AEAB214CD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54BE5402200342C300CC0668 /* PBXTargetDependency */,
+			);
+			name = RACSignalTests;
+			productName = RACSignalTests;
+			productReference = 54BE5400200342C300CC0668 /* RACSignalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		54BE540A200342C300CC0668 /* RACSignalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54BE541A200342C300CC0668 /* Build configuration list for PBXNativeTarget "RACSignalUITests" */;
+			buildPhases = (
+				3BBD7B4DFD48A60208C18C8B /* [CP] Check Pods Manifest.lock */,
+				54BE5407200342C300CC0668 /* Sources */,
+				54BE5408200342C300CC0668 /* Frameworks */,
+				54BE5409200342C300CC0668 /* Resources */,
+				B5F43B62B3692B1A1E94E000 /* [CP] Embed Pods Frameworks */,
+				D77FB823FA0A8F50432C3963 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54BE540D200342C300CC0668 /* PBXTargetDependency */,
+			);
+			name = RACSignalUITests;
+			productName = RACSignalUITests;
+			productReference = 54BE540B200342C300CC0668 /* RACSignalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54BE53E0200342C300CC0668 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Smart-AI";
+				TargetAttributes = {
+					54BE53E7200342C300CC0668 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					54BE53FF200342C300CC0668 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 54BE53E7200342C300CC0668;
+					};
+					54BE540A200342C300CC0668 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 54BE53E7200342C300CC0668;
+					};
+				};
+			};
+			buildConfigurationList = 54BE53E3200342C300CC0668 /* Build configuration list for PBXProject "RACSignal" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54BE53DF200342C300CC0668;
+			productRefGroup = 54BE53E9200342C300CC0668 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54BE53E7200342C300CC0668 /* RACSignal */,
+				54BE53FF200342C300CC0668 /* RACSignalTests */,
+				54BE540A200342C300CC0668 /* RACSignalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54BE53E6200342C300CC0668 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54BE53F8200342C300CC0668 /* LaunchScreen.storyboard in Resources */,
+				54BE53F5200342C300CC0668 /* Assets.xcassets in Resources */,
+				54BE53F3200342C300CC0668 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54BE53FE200342C300CC0668 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54BE5409200342C300CC0668 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3BBD7B4DFD48A60208C18C8B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RACSignalUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C35270463BAB50AEAB214CD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RACSignalTests/Pods-RACSignalTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		686079B1554CD626EB1F1DBC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RACSignal-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95FE5079BB3A2726AC99C314 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RACSignal/Pods-RACSignal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B138053DD522EEB87C45B12B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RACSignalTests/Pods-RACSignalTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5F43B62B3692B1A1E94E000 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RACSignalUITests/Pods-RACSignalUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BAD737E415F82D34E12A35CB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RACSignal/Pods-RACSignal-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D77FB823FA0A8F50432C3963 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RACSignalUITests/Pods-RACSignalUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2875BA71394E475D88E6350 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RACSignalTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54BE53E4200342C300CC0668 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54BE53F0200342C300CC0668 /* ViewController.m in Sources */,
+				54BE53FB200342C300CC0668 /* main.m in Sources */,
+				54BE53ED200342C300CC0668 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54BE53FC200342C300CC0668 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54BE5405200342C300CC0668 /* RACSignalTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54BE5407200342C300CC0668 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54BE5410200342C300CC0668 /* RACSignalUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54BE5402200342C300CC0668 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54BE53E7200342C300CC0668 /* RACSignal */;
+			targetProxy = 54BE5401200342C300CC0668 /* PBXContainerItemProxy */;
+		};
+		54BE540D200342C300CC0668 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54BE53E7200342C300CC0668 /* RACSignal */;
+			targetProxy = 54BE540C200342C300CC0668 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		54BE53F1200342C300CC0668 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54BE53F2200342C300CC0668 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		54BE53F6200342C300CC0668 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54BE53F7200342C300CC0668 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		54BE5412200342C300CC0668 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		54BE5413200342C300CC0668 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54BE5415200342C300CC0668 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 694FD3CCBA41E4509FD30252 /* Pods-RACSignal.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RACSignal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Smart-AI.RACSignal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		54BE5416200342C300CC0668 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D3F8A938FB69D1806714E63 /* Pods-RACSignal.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RACSignal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Smart-AI.RACSignal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		54BE5418200342C300CC0668 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1508AC32F974B94169512555 /* Pods-RACSignalTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RACSignalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Smart-AI.RACSignalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RACSignal.app/RACSignal";
+			};
+			name = Debug;
+		};
+		54BE5419200342C300CC0668 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 505A8F87856019E2C13C5216 /* Pods-RACSignalTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RACSignalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Smart-AI.RACSignalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RACSignal.app/RACSignal";
+			};
+			name = Release;
+		};
+		54BE541B200342C300CC0668 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF82AF0F580103B62B028DCF /* Pods-RACSignalUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RACSignalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Smart-AI.RACSignalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RACSignal;
+			};
+			name = Debug;
+		};
+		54BE541C200342C300CC0668 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F14737ADF2D383EA276386E3 /* Pods-RACSignalUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RACSignalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Smart-AI.RACSignalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RACSignal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54BE53E3200342C300CC0668 /* Build configuration list for PBXProject "RACSignal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54BE5412200342C300CC0668 /* Debug */,
+				54BE5413200342C300CC0668 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54BE5414200342C300CC0668 /* Build configuration list for PBXNativeTarget "RACSignal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54BE5415200342C300CC0668 /* Debug */,
+				54BE5416200342C300CC0668 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54BE5417200342C300CC0668 /* Build configuration list for PBXNativeTarget "RACSignalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54BE5418200342C300CC0668 /* Debug */,
+				54BE5419200342C300CC0668 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54BE541A200342C300CC0668 /* Build configuration list for PBXNativeTarget "RACSignalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54BE541B200342C300CC0668 /* Debug */,
+				54BE541C200342C300CC0668 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54BE53E0200342C300CC0668 /* Project object */;
+}

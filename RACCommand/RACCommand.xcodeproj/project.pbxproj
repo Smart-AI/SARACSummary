@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5433026620045F930015584B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5433026520045F930015584B /* AppDelegate.m */; };
+		5433026920045F930015584B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5433026820045F930015584B /* ViewController.m */; };
+		5433026C20045F930015584B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5433026A20045F930015584B /* Main.storyboard */; };
+		5433026E20045F930015584B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5433026D20045F930015584B /* Assets.xcassets */; };
+		5433027120045F930015584B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5433026F20045F930015584B /* LaunchScreen.storyboard */; };
+		5433027420045F930015584B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5433027320045F930015584B /* main.m */; };
+		5433027E20045F930015584B /* RACCommandTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5433027D20045F930015584B /* RACCommandTests.m */; };
+		5433028920045F930015584B /* RACCommandUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5433028820045F930015584B /* RACCommandUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5433027A20045F930015584B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5433025920045F930015584B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5433026020045F930015584B;
+			remoteInfo = RACCommand;
+		};
+		5433028520045F930015584B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5433025920045F930015584B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5433026020045F930015584B;
+			remoteInfo = RACCommand;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5433026120045F930015584B /* RACCommand.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RACCommand.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5433026420045F930015584B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5433026520045F930015584B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5433026720045F930015584B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5433026820045F930015584B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5433026B20045F930015584B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5433026D20045F930015584B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5433027020045F930015584B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5433027220045F930015584B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5433027320045F930015584B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5433027920045F930015584B /* RACCommandTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RACCommandTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5433027D20045F930015584B /* RACCommandTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACCommandTests.m; sourceTree = "<group>"; };
+		5433027F20045F930015584B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5433028420045F930015584B /* RACCommandUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RACCommandUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5433028820045F930015584B /* RACCommandUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACCommandUITests.m; sourceTree = "<group>"; };
+		5433028A20045F930015584B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5433025E20045F930015584B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5433027620045F930015584B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5433028120045F930015584B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5433025820045F930015584B = {
+			isa = PBXGroup;
+			children = (
+				5433026320045F930015584B /* RACCommand */,
+				5433027C20045F930015584B /* RACCommandTests */,
+				5433028720045F930015584B /* RACCommandUITests */,
+				5433026220045F930015584B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5433026220045F930015584B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5433026120045F930015584B /* RACCommand.app */,
+				5433027920045F930015584B /* RACCommandTests.xctest */,
+				5433028420045F930015584B /* RACCommandUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5433026320045F930015584B /* RACCommand */ = {
+			isa = PBXGroup;
+			children = (
+				5433026420045F930015584B /* AppDelegate.h */,
+				5433026520045F930015584B /* AppDelegate.m */,
+				5433026720045F930015584B /* ViewController.h */,
+				5433026820045F930015584B /* ViewController.m */,
+				5433026A20045F930015584B /* Main.storyboard */,
+				5433026D20045F930015584B /* Assets.xcassets */,
+				5433026F20045F930015584B /* LaunchScreen.storyboard */,
+				5433027220045F930015584B /* Info.plist */,
+				5433027320045F930015584B /* main.m */,
+			);
+			path = RACCommand;
+			sourceTree = "<group>";
+		};
+		5433027C20045F930015584B /* RACCommandTests */ = {
+			isa = PBXGroup;
+			children = (
+				5433027D20045F930015584B /* RACCommandTests.m */,
+				5433027F20045F930015584B /* Info.plist */,
+			);
+			path = RACCommandTests;
+			sourceTree = "<group>";
+		};
+		5433028720045F930015584B /* RACCommandUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5433028820045F930015584B /* RACCommandUITests.m */,
+				5433028A20045F930015584B /* Info.plist */,
+			);
+			path = RACCommandUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5433026020045F930015584B /* RACCommand */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5433028D20045F940015584B /* Build configuration list for PBXNativeTarget "RACCommand" */;
+			buildPhases = (
+				5433025D20045F930015584B /* Sources */,
+				5433025E20045F930015584B /* Frameworks */,
+				5433025F20045F930015584B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RACCommand;
+			productName = RACCommand;
+			productReference = 5433026120045F930015584B /* RACCommand.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5433027820045F930015584B /* RACCommandTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5433029020045F940015584B /* Build configuration list for PBXNativeTarget "RACCommandTests" */;
+			buildPhases = (
+				5433027520045F930015584B /* Sources */,
+				5433027620045F930015584B /* Frameworks */,
+				5433027720045F930015584B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5433027B20045F930015584B /* PBXTargetDependency */,
+			);
+			name = RACCommandTests;
+			productName = RACCommandTests;
+			productReference = 5433027920045F930015584B /* RACCommandTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5433028320045F930015584B /* RACCommandUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5433029320045F940015584B /* Build configuration list for PBXNativeTarget "RACCommandUITests" */;
+			buildPhases = (
+				5433028020045F930015584B /* Sources */,
+				5433028120045F930015584B /* Frameworks */,
+				5433028220045F930015584B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5433028620045F930015584B /* PBXTargetDependency */,
+			);
+			name = RACCommandUITests;
+			productName = RACCommandUITests;
+			productReference = 5433028420045F930015584B /* RACCommandUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5433025920045F930015584B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Smart-AI";
+				TargetAttributes = {
+					5433026020045F930015584B = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					5433027820045F930015584B = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5433026020045F930015584B;
+					};
+					5433028320045F930015584B = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5433026020045F930015584B;
+					};
+				};
+			};
+			buildConfigurationList = 5433025C20045F930015584B /* Build configuration list for PBXProject "RACCommand" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5433025820045F930015584B;
+			productRefGroup = 5433026220045F930015584B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5433026020045F930015584B /* RACCommand */,
+				5433027820045F930015584B /* RACCommandTests */,
+				5433028320045F930015584B /* RACCommandUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5433025F20045F930015584B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5433027120045F930015584B /* LaunchScreen.storyboard in Resources */,
+				5433026E20045F930015584B /* Assets.xcassets in Resources */,
+				5433026C20045F930015584B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5433027720045F930015584B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5433028220045F930015584B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5433025D20045F930015584B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5433026920045F930015584B /* ViewController.m in Sources */,
+				5433027420045F930015584B /* main.m in Sources */,
+				5433026620045F930015584B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5433027520045F930015584B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5433027E20045F930015584B /* RACCommandTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5433028020045F930015584B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5433028920045F930015584B /* RACCommandUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5433027B20045F930015584B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5433026020045F930015584B /* RACCommand */;
+			targetProxy = 5433027A20045F930015584B /* PBXContainerItemProxy */;
+		};
+		5433028620045F930015584B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5433026020045F930015584B /* RACCommand */;
+			targetProxy = 5433028520045F930015584B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5433026A20045F930015584B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5433026B20045F930015584B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5433026F20045F930015584B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5433027020045F930015584B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5433028B20045F930015584B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5433028C20045F930015584B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5433028E20045F940015584B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RACCommand/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Smart-AI.RACCommand";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5433028F20045F940015584B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RACCommand/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Smart-AI.RACCommand";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5433029120045F940015584B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RACCommandTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Smart-AI.RACCommandTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RACCommand.app/RACCommand";
+			};
+			name = Debug;
+		};
+		5433029220045F940015584B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RACCommandTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Smart-AI.RACCommandTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RACCommand.app/RACCommand";
+			};
+			name = Release;
+		};
+		5433029420045F940015584B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RACCommandUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Smart-AI.RACCommandUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RACCommand;
+			};
+			name = Debug;
+		};
+		5433029520045F940015584B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RACCommandUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Smart-AI.RACCommandUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RACCommand;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5433025C20045F930015584B /* Build configuration list for PBXProject "RACCommand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5433028B20045F930015584B /* Debug */,
+				5433028C20045F930015584B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5433028D20045F940015584B /* Build configuration list for PBXNativeTarget "RACCommand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5433028E20045F940015584B /* Debug */,
+				5433028F20045F940015584B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5433029020045F940015584B /* Build configuration list for PBXNativeTarget "RACCommandTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5433029120045F940015584B /* Debug */,
+				5433029220045F940015584B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5433029320045F940015584B /* Build configuration list for PBXNativeTarget "RACCommandUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5433029420045F940015584B /* Debug */,
+				5433029520045F940015584B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5433025920045F930015584B /* Project object */;
+}
